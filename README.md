@@ -58,7 +58,7 @@ ascending order of CSS selectors
 
 
 ### <h2> Useful links </h2>
-> [Interactive Flex Box](https://www.joshwcomeau.com/css)
-> [Interactive CSS Transformations](https://www.joshwcomeau.com/css/transforms/)
-> [Grid Box Challenges](https://cssgrid.io/)
-> [Flex Box Challenges](https://flexbox.io/)
+1. [Interactive Flex Box](https://www.joshwcomeau.com/css)
+1. [Interactive CSS Transformations](https://www.joshwcomeau.com/css/transforms/)
+1. [Grid Box Challenges](https://cssgrid.io/)
+1. [Flex Box Challenges](https://flexbox.io/)
