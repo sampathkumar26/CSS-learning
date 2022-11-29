@@ -2,6 +2,7 @@
 
 udemy Link: [CSS Masterclass](https://www.udemy.com/course/css-layouts-masterclass/)
 
+
 # <center>Different Types of Selectors</center>
 
 ## 1. Name selector
@@ -54,3 +55,10 @@ ascending order of CSS selectors
 > * ID selectors
 > * Class/pseudo-classes/attribute selectors
 > * Element/pseudo-elements
+
+
+### <h2> Useful links </h2>
+> [Interactive Flex Box](https://www.joshwcomeau.com/css)
+> [Interactive CSS Transformations](https://www.joshwcomeau.com/css/transforms/)
+> [Grid Box Challenges](https://cssgrid.io/)
+> [Flex Box Challenges](https://flexbox.io/)
