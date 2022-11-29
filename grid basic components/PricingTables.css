@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 25rem);
+    gap: 2rem;
+    height: 100vh;
+    place-content: center space-around;
+}
+
+.card {
+    padding: 2rem;
+    border-radius: 1rem;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 25px lightgray;
+
+    display: grid;
+    row-gap: 2rem;
+}
+
+.name {
+    display: grid;
+    row-gap: .5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, .7);
+}
+
+.pricing {
+    display: grid;
+    row-gap: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+span {
+    text-decoration: line-through 2px solid rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .5);
+}
+
+a {
+    text-decoration: none;
+    background-color: #251d3a;
+    color: white;
+    border-radius: .8rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+#current-plan {
+    background-color: #2155cd;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .5);
+
+    display: grid;
+    gap: 1rem 0;
+
+}
+
+.fa-solid {
+    padding: 1rem;
+    color: lightgreen;
+}
+
+.fa-xmark {
+    color: lightcoral;
+}

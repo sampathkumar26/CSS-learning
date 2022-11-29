@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 15rem);
+    grid-template-areas:
+        "logo logo logo mini mini mini"
+        "des des des til til til"
+        "img img img em em em"
+        "img img img pass pass pass"
+        "img img img sub sub sub"
+        "img img img gog gog gog"
+        "img img img in in in";
+    gap: 2rem 3rem;
+    font-size: 1.5rem;
+    padding: 4rem;
+    align-items: center;
+    place-content: center;
+}
+
+.logo {
+    grid-area: logo;
+    justify-self: center;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.des {
+    grid-area: des;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, .8);
+    text-align: center;
+}
+
+.img {
+    grid-area: img;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mini {
+    grid-area: mini;
+    color: rgba(0, 0, 0, .6);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.til {
+    grid-area: til;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+fieldset {
+    border: none;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+.email {
+    grid-area: em;
+}
+
+.password {
+    grid-area: pass;
+}
+
+input[type='submit'],
+input[type='email'],
+input[type='password'] {
+    background: none;
+    outline: none;
+    border: none;
+
+    font-size: 1.6rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+}
+
+input[type='email'],
+input[type='password'] {
+    border: 2px solid;
+}
+
+.submit {
+    grid-area: sub;
+    background: none;
+    outline: none;
+    border: none;
+
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+}
+
+input[type='submit'] {
+    background-color: #242f9b;
+    color: white;
+    cursor: pointer;
+}
+
+.gog {
+    grid-area: gog;
+    background-color: #dbdffd;
+    border-radius: 1rem;
+    padding: 1.5rem 2.5rem;
+    color: #242f9b;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sign {
+    grid-area: in;
+}
+
+.sign a {
+    color: #242f9b;
+}

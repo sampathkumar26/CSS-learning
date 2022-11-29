@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 30%;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 2rem 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+input[type="submit"] {
+  border: none;
+  color: white;
+  background-color: #6a67ce;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+li {
+  width: 33.3%;
+  list-style: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+li a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+ul li:first-child {
+  background-color: blue;
+}
+ul li:nth-child(2) {
+  background-color: skyblue;
+}
+ul li:last-child {
+  background-color: orangered;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+}
